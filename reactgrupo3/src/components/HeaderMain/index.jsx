@@ -3,9 +3,8 @@ import { Link } from 'react-router-dom'
 import './style.css';
 
 export default function HeaderMain() {
-  return (
-<body>
-  
+
+  return ( 
 
    <header>
     <div className='container' > 
@@ -13,26 +12,22 @@ export default function HeaderMain() {
     <h1> LocaSim</h1>
     </div>
     <div className="menus"> 
-    <Link to="/">  
-    <button> Home</button>
-    </Link>
+    <Link to={"/"}> Home </Link>
 
-    <Link to="/Sobre">  
-    <button> Sobre</button>
-    </Link>
+    <Link to={"/sobre"}> Sobre </Link>
 
-    <Link to="/Contato">  
-    <button> Contato</button>
-    </Link>
-    
+    <Link to={"/contato"}> Contato </Link>  
+
+    <Link to={"/acomodacoes"}> Acomodações </Link>  
 
     </div>
-
     </div>
-
    </header>
+  )
+   
+}
 
-
+{/* <body>
    <img className='homefoto' src="src\assets\homefoto.png" alt="homefoto" />
 
     <p className='inicialtext' >Bem-vindo ao LocaSim!
@@ -42,7 +37,6 @@ O LocaSim é um site de aluguel de imóveis que oferece uma variedade de opçõe
     <button className='acomodacoes' > Acomodações</button>
     </Link>
 
-   </body>
+   </body> */}
 
-  )
-}
+  
