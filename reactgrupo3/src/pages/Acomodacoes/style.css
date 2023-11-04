@@ -1,0 +1,60 @@
+.Acontainer {
+    display: flex;
+    flex-direction: column;
+    color: #585858;
+}
+
+.Aheader {
+    text-align: center;
+    font-size: 2rem;
+    margin: 1rem 0;
+}
+
+.Acards {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    color: #585858;
+}
+
+.Acard {
+    width: 360px;
+    border: 1px solid #bebebe;
+    border-radius: 5px;
+    padding: .5rem;
+    margin: 1rem 0;
+}
+
+.Acard img {
+    width: 100%;
+    height: 420px;
+    border-radius: 5px;
+}
+
+.Abtn {
+    padding: .8rem 2.3rem;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+    background: #164863;
+    color: #fff;
+    cursor: pointer;
+
+    transition: .2s ease;
+}
+
+.Abtn:hover {
+    background-color: #297fad;
+    transform: scale(1.05);
+}
+
+.aluguel {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aluguel .Apreco {
+    font-weight: bold;
+}
+
