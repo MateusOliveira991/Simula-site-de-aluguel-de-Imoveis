@@ -1,0 +1,31 @@
+.Alcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Alheader {
+    font-size: 2rem;
+}
+
+.Alform {
+    border: 1px solid #000;
+    padding: 1rem;
+    width: 420px;
+    border-radius: 5px;
+}
+
+.fields {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+}
+
+.fields input {
+    width: 100%;
+    padding: .2rem;
+}
+

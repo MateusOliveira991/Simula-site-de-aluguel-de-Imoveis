@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Acomodacoes/style.css'
+import { Link } from 'react-router-dom'
 
 export default function Acomodacoes() {
 
@@ -16,7 +17,9 @@ export default function Acomodacoes() {
           <h3>Título da casa</h3>
           <p>descrição da casa</p>
           <div className="aluguel">
+            <Link to={'/aluguel'}>
             <button className='Abtn'>Alugar</button>
+            </Link>
             <span className='Apreco'>R$ 325,00</span>
           </div>
         </div>

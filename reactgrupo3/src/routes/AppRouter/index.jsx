@@ -6,6 +6,7 @@ import Sobre from '../../pages/Sobre';
 import Contato from '../../pages/Contato';
 import Acomodacoes from '../../pages/Acomodacoes';
 import Erro from '../../pages/Erro';
+import Aluguel from '../../pages/Forms/Aluguel';
 
 export default function AppRouter() {
   return (
@@ -14,6 +15,7 @@ export default function AppRouter() {
     <Route path='/sobre' element={<Sobre/>} ></Route>
     <Route path='/contato' element={<Contato/>} ></Route>
     <Route path='/acomodacoes' element={<Acomodacoes/>} ></Route>
+    <Route path='/aluguel' element={<Aluguel/>} ></Route>
     <Route path='*' element={<Erro/>} ></Route>
     </Routes>
   )
