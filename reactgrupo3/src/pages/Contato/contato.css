@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+   
+}
+.container {
+    font-family:  'Playpen Sans', cursive;
+    display: flex; align-items: center ; justify-content: center;
+    width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+}   
+.main {
+    padding: 50px 0;
+    text-align: center;
+
+}
+.contato{
+
+color: #A52A2A	 ;
+
+}
+h1 {
+    text-shadow: 3px -1px 2px #00000085;
+    margin-bottom: 80px;
+    font-weight: 500;
+    font-size: 30px;
+    font-family: 'Playpen Sans', cursive;
+}
+a {
+    text-decoration: none;
+    color: #135269 ;
+    padding-top: 30px;
+    font-size: 23px;
+
+
+}
+a:hover {
+    text-decoration: underline;
+}
+.icone {
+    display:flex;
+    flex-direction: row;
+
+}
+
+.icone img {
+    width: 60px;
+    height: 60px;
+}
+
+ p {
+    margin-left: 10px;
+    font-size: 20px;
+    padding-bottom: 40px;
+
+}
