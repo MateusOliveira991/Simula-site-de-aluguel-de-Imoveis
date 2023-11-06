@@ -10,7 +10,7 @@ export default function Home() {
          <div></div>
    <img className='hhomefoto' src="src\assets\images\homefoto.png" alt="homefoto" />
 
-    <p className='hinicialtext' >Bem-vindo ao LocaSim!</p>
+    {/* <p className='hinicialtext' >Bem-vindo ao LocaSim!</p> */}
    <Link to="/Acomodacoes">  
     <button className='hacomodacoes' > Acomodações</button>
     </Link>

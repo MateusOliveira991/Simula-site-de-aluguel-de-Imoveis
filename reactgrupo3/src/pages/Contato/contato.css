@@ -1,27 +1,22 @@
-body {
-    margin: 0;
-    padding: 0;
-    background-color: beige;
-   
-}
-.container {
+
+.ccontainer {
     font-family:  'Playpen Sans', cursive;
     display: flex; align-items: center ; justify-content: center;
     width: 100%;
     margin: 0 auto;
     overflow: hidden;
 }   
-.main {
+.cmain {
     padding: 50px 0;
     text-align: center;
 
 }
-.contato{
+.ccontato{
 
 color: #A52A2A	 ;
 
 }
-h1 {
+h2 {
     text-shadow: 3px -1px 2px #00000085;
     margin-bottom: 80px;
     font-weight: 500;
@@ -39,13 +34,13 @@ a {
 a:hover {
     text-decoration: underline;
 }
-.icone {
+.cicone {
     display:flex;
     flex-direction: row;
 
 }
 
-.icone img {
+.cicone img {
     width: 60px;
     height: 60px;
 }

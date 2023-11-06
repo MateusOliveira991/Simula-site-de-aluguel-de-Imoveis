@@ -6,15 +6,15 @@ import celular from "../../assets/contato/phone-outline.png";
 
 export default function Contato() {
   return (
-    <div className='main'>
-      <div className="container">
-        <div className="contato">
-          <h1>Entre em contato conosco</h1>
+    <div className='cmain'>
+      <div className="ccontainer">
+        <div className="ccontato">
+          <h2>Entre em contato conosco</h2>
           
           <div 
-          className="contatoInfo">
-            <div className="icone">
-              <img src={celular} alt="celular" />
+          className="ccontatoInfo">
+            <div className="cicone">
+              <img src={celular} alt="ccelular" />
               <p>
               0800 976 5801
 
@@ -22,21 +22,20 @@ export default function Contato() {
               </p>
             </div>
            
-            <div className = "icone">
-            <img src={email} alt="email" ></img>
+            <div className = "cicone">
+            <img src={email} alt="cemail" ></img>
             <p>
                LocaSim@gmail.com
             </p>
                </div>
             
           </div>
-          <div className="social">
+          <div className="csocial">
             <a href="#" target='_blank'>Instagram</a>
 
           </div>
         </div>
-      </
-      div>
+      </div>
 
 
     </div>
