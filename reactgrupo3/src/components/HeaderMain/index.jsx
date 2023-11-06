@@ -12,6 +12,10 @@ export default function HeaderMain() {
       
     
    <header>
+   <div className='hchaves' >
+        <link rel="stylesheet" href="src\assets\images\homefoto.png" />
+
+    </div>
     <div className='mcontainer' > 
     <div className='logo' > 
     <h1> LocaSim</h1>

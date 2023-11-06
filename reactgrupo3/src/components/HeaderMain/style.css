@@ -1,36 +1,24 @@
-
-body {
-    margin: 0;
-    padding: 0;
-    font-family: Arial, sans-serif;
-    background-color: #ffffff;
-    
-}
 header {
-    background-color: rgb(19, 82, 105);
+    background-color: #55898f;
+    background-image: linear-gradient(45deg, #d9e3ed 0%, #0b3236 70%);
     color: white;
     padding: 20px 0;
-    
-    
-    
-}
-
-.mcontainer {
+  }
+  
+  .mcontainer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-.logo {
-    font-size: 10px;
-    margin-left: 20px;
-     background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.4));
+  }
+  
+  .logo {
+    font-size: 15px;
+    margin-left: 50px;
+    background-image: linear-gradient(45deg, #265d94 10%, #0b606a 90%);
     background-size: 100%;
     border-radius: 100%;
     padding: 10px;
-    
-}
-
+  }
 .mmenus {
     
     display: flex;
