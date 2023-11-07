@@ -1,9 +1,41 @@
-span{
 
-    font-family:  'Playpen Sans', cursive;
-    font-size: 18px;
-    font-style: italic;
-    
+.relo{
+
+    background-color: aliceblue;
+    height: 82px;
+    border-radius: 5px;
 
 }
+  
+  .horaatual span {
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+   
+  label {
+    background-color: #ffffff1b;
+  } 
+
+  span{
+    color: #000000;
+    font-weight: bold;
+    background-color: #ffffff65;
+    border-radius: 5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+
+  }
+  
+  
+  
+  
+  
+ 
+  
+ 
+  
+ 
 

@@ -6,7 +6,8 @@ header {
   background-color: #55898f;
   background-image: linear-gradient(45deg, #d9e3ed 0%, #0b3236 70%);
   color: white;
-  padding: 20px 0;
+  padding: 10px 0;
+  border-radius: 20px;
   
 }
   
@@ -36,6 +37,9 @@ header {
     margin: 0 30px;
     
 }
+
+
+
 
   
   

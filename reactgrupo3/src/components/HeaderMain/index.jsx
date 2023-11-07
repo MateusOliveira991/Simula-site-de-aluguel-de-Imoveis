@@ -44,7 +44,7 @@ export default function HeaderMain() {
     <div className='profilePic'>
       <img src={profilePic} alt="" />
     </div>
-    <div className="container">
+    <div className="container" >
       <GoogleLogin
       clientId='338813839374-ij4r5ot709q6q7h3cgdfrdsuq797o582.apps.googleusercontent.com'
       buttonText='Logar'

@@ -27,7 +27,7 @@ export default function Conta() {
   }
 
     return (
-    <div>
+    <div className="dados" >
       <h2>Informações do Usuário</h2>
       <h2>Nome: {conta.nome}</h2>
       <h2>CPF: {conta.cpf}</h2>

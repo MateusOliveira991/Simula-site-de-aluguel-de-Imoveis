@@ -26,7 +26,7 @@ export default function Mateushora() {
   return (
     <>
 
-   
+   <div className="relo" >
       <span>Relógio Mundial</span>
 
       
@@ -45,9 +45,9 @@ export default function Mateushora() {
         </select>
       </div>
 
-   
+         </div>
 
-      </div>
+         </div>
     </>
   );
 }
