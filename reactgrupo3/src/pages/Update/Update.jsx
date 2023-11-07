@@ -46,7 +46,7 @@ export default function Update() {
   }, []);
   
 
-  const updateConta = (data)=> axios.put(`https://6542e08c01b5e279de1fad8b.mockapi.io/inquilino${id}`, data)
+  const updateConta = (data)=> axios.put(`https://6542e08c01b5e279de1fad8b.mockapi.io/inquilino/${id}`, data)
   .then(()=>{
     console.log("Update deu certo!")
     navigate(`/conta/${id}`)

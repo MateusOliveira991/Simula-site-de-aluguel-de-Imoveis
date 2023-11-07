@@ -30,7 +30,7 @@ export default function Conta() {
     <div>
       <h2>Informações do Usuário</h2>
       <h2>Nome: {conta.nome}</h2>
-      <h2>CPF {conta.cpf}</h2>
+      <h2>CPF: {conta.cpf}</h2>
       <h2>Telefone: {conta.telefone}</h2>
       <h2>Email: {conta.email}</h2>
       <Link to = {`/update/${conta.id}`}>
