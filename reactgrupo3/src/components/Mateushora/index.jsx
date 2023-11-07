@@ -35,7 +35,7 @@ export default function Mateushora() {
         <span>Hora atual: {horaFormat}</span>
 
         <div className=" hcontainerhora">
-        <label>Escolha o fuso horáro: </label>
+        <label>Escolha o fuso horário: </label>
         <select onChange={handleFusoHorarioChange} value={fusoHorario}>
           <option value="UTC">UTC</option>
           <option value="America/New_York">America/New York</option>
