@@ -3,7 +3,7 @@ import './style.css';
 
 export default function Sobre() {
   return (
-    <div className="container">
+    <div className="xxcontainer">
       <h2>Sobre nós:</h2>
       <h2>
         <p>Bem-vindo ao mundo da LocaSim - onde a criatividade encontra a dedicação, e a inovação se une à tradição.</p></h2>
