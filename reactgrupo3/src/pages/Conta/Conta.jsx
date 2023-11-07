@@ -4,6 +4,7 @@ import { useParams } from "react-router-dom";
 import axios from "axios";
 import { useNavigate } from "react-router-dom";
 
+import '../Conta/style.css'
 export default function Conta() {
   const [conta, setConta] = useState({})
   const { id } = useParams()
@@ -33,9 +34,9 @@ export default function Conta() {
       <h2>Telefone: {conta.telefone}</h2>
       <h2>Email: {conta.email}</h2>
       <Link to = {`/update/${conta.id}`}>
-                      <button>Editar</button>
+                      <button className="conta-btn">Editar</button>
                     </Link>
-      <button onClick={()=>encerrarConta(conta.id)}>Encerrar Conta</button>
+      <button className="conta-btn encerrar" onClick={()=>encerrarConta(conta.id)}>Encerrar Conta</button>
     </div>
   )
 }
