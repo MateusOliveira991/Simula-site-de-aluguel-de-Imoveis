@@ -36,7 +36,10 @@ export default function HeaderMain() {
 
     <Link to={"/contato"}> Contato </Link>  
 
-    <Link to={"/acomodacoes"}> Acomodações </Link>  
+    <Link to={"/acomodacoes"}> Acomodações </Link>
+
+    <Link to={"/conta/1"}> Conta </Link>
+
     <div className="container">
     <div className='profilePic'>
       <img src={profilePic} alt="" />
