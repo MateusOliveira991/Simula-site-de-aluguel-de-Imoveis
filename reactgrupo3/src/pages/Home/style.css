@@ -20,14 +20,12 @@
     
   }
   
-
   body {
-    margin: 0;
-    padding: 0;
+    
     background: linear-gradient(45deg, transparent 25px, rgb(137, 169, 177, 0.1) 0px, rgba(255, 249, 249, 0.824) 60px, transparent 1500px);
     background-size: 90px 930px;
     background-color: rgb(137, 169, 177);
-    animation: moveBackground 10s linear infinite;
+    animation: moveBackground 8s linear infinite;
 }
 
 @keyframes moveBackground {
@@ -38,4 +36,5 @@
         background-position: 90px 930px;
     }
 }
+
 
