@@ -1,0 +1,30 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+  
+}
+
+h1 {
+  font-size: 24px;
+  color: #333;
+}
+
+
+
+
+.nav-link {
+  display: inline-block;
+  padding: 2px 18px;
+  background-color: #000201;
+  color: #fff;
+  text-decoration: none;
+  border-radius:125px;
+  margin-top: 50px;
+  transition: background-color 0.3s;
+}
+
+.nav-link:hover {
+  background-color: hsl(168, 92%, 24%);
+}
+
+
