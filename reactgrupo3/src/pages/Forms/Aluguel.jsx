@@ -1,6 +1,6 @@
 import { useForm } from "react-hook-form";
 import * as yup from "yup";
-import { yupResolver } from "@hookform/resolvers/yup";
+// import { yupResolver } from "@hookform/resolvers/yup";
 import React from 'react'
 import '../Forms/aluguel.css'
 import { useNavigate } from "react-router-dom";

@@ -1,6 +1,7 @@
-import React, { useState } from 'react'
+import React,{useState,} from 'react'
 import '../Acomodacoes/style.css'
 import { Link } from 'react-router-dom'
+import MapPage from '../../components/GoogleAPI/MapPage';
 
 export default function Acomodacoes({textoBtn}) {
 
@@ -20,6 +21,8 @@ export default function Acomodacoes({textoBtn}) {
           <img src="src\assets\images\casa.jpg" alt="imagem de casa" width={200} />
           <h3>Curitiba, Paraná</h3>
           <p>Linda casa amarela em local tranquilo e na beira da rua</p>
+          <MapPage/>
+          <br />
           <div className="aluguel">
             <Link to={'/aluguel'}>
               <button className='Abtn'>{textoBtn}</button>
@@ -34,6 +37,8 @@ export default function Acomodacoes({textoBtn}) {
           <img src="src\assets\images\casa1.jpg" alt="imagem de casa" width={200} />
           <h3>Grupiara, Minas Gerais</h3>
           <p>Apartamento rústico a 1km do centro da cidade</p>
+          <MapPage/>
+          <br />
           <div className="aluguel">
             <Link to={'/aluguel'}>
               <button className='Abtn'>Alugar</button>
@@ -45,6 +50,8 @@ export default function Acomodacoes({textoBtn}) {
           <img src="src\assets\images\casa2.jpg" alt="imagem de casa" width={200} />
           <h3>Miguel Leão, Piauí</h3>
           <p>Casa moderna recém construída, com design contemporâneo</p>
+          <MapPage/>
+          <br />
           <div className="aluguel">
             <Link to={'/aluguel'}>
               <button className='Abtn'>Alugar</button>
@@ -59,6 +66,8 @@ export default function Acomodacoes({textoBtn}) {
           <img src="src\assets\images\casa4.jpg" alt="imagem de casa" width={200} />
           <h3>Uru, São Paulo</h3>
           <p>Linda casa com piscina estilo xalé, espaço muito reservado</p>
+          <MapPage/>
+          <br />
           <div className="aluguel">
             <Link to={'/aluguel'}>
               <button className='Abtn'>Alugar</button>
@@ -70,6 +79,8 @@ export default function Acomodacoes({textoBtn}) {
           <img src="src\assets\images\casa5.jpg" alt="imagem de casa" width={200} />
           <h3>União da Serra, Rio Grande do Sul</h3>
           <p>Casa nas monstanhas, ideal para quem busca um local mais isolado</p>
+          <MapPage/>
+          <br />
           <div className="aluguel">
             <Link to={'/aluguel'}>
               <button className='Abtn'>Alugar</button>
@@ -84,6 +95,8 @@ export default function Acomodacoes({textoBtn}) {
           <img src="src\assets\images\casa6.jpg" alt="imagem de casa" width={200} />
           <h3>Moiporá, Goiás</h3>
           <p>Casa perto da praia com quintal espaçoso, ideal para famílias grandes</p>
+          <MapPage/>
+          <br />
           <div className="aluguel">
             <Link to={'/aluguel'}>
               <button className='Abtn'>Alugar</button>
