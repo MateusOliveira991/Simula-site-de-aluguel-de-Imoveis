@@ -36,3 +36,6 @@ João Pedro: https://github.com/jottatec
 -Informações de crenças e valores da página "Sobre";
 -Botões com link para contato e acomodações.
 
+![image](https://github.com/MateusOliveira991/Simula-site-de-aluguel-de-Imoveis/assets/142065746/a19fdb6b-a42f-42a8-8638-70f0ccdeab04)
+
+
